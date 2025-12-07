@@ -11,7 +11,7 @@ export default function Searchbar() {
     //doo something
   }
   return (
-    <div className="flex items-center justify-center dark:bg-gray-950 bg-gray-50 rounded-lg border relative shadow-md">
+    <div className="flex items-center justify-center dark:bg-neutral-900 bg-neutral-100 rounded-lg border relative shadow-md">
       <Textarea
         value={input}
         onChange={(e) => setInput(e.target.value)}
